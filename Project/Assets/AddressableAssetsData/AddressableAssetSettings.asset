@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: 908b434eb41181040a446a89e71b95e0
-  m_CachedHash:
+  m_currentHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: 88aec08e87f3083503e98d4357a3dd4a
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -32,11 +32,15 @@ MonoBehaviour:
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_BuildAndReleaseBinFileOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: 
@@ -83,7 +87,7 @@ MonoBehaviour:
       - m_Id: 8c5d51c05ad6e4a48b7bdb8fdafd9aa3
         m_Value: AssetBundles/[BuildTarget]
       - m_Id: 2dd1ea5524cce474aa387f47e81b7dfe
-        m_Value: https://6425f585-dcf3-48ce-9486-732852d3a59e.client-api.unity3dusercontent.com/client_api/v1/buckets/5f809432-faf8-4691-a1f7-8923c0c83ee7/release_by_badge/latest/entry_by_path/content/?path=
+        m_Value: https://6ddd2921-3be4-4bf1-9c03-d3c5b4cbad7d.client-api.unity3dusercontent.com/client_api/v1/environments/production/buckets/26234e2a-1a89-4a5d-8485-a8bbbd542e51/releases/d1aa7846-1abf-4a6a-aadc-4fbd2efd4c99/entry_by_path/content/?path=
     - m_InheritedParent: 
       m_Id: 402745a40a208a14c950786bb9ef578f
       m_ProfileName: Android Development
@@ -137,3 +141,10 @@ MonoBehaviour:
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
+    m_PingTimeoutInMilliseconds: 5000
+  m_CcdManagedData:
+    EnvironmentId: 
+    EnvironmentName: 
+    BucketId: 
+    Badge: 
+    State: 0

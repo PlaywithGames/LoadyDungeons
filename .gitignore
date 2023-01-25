@@ -9,6 +9,7 @@ Project/[Bb]uild/
 Project/[Bb]uilds/
 Project/[Ll]ogs/
 Project/[Mm]emoryCaptures/
+Project/AssetBundles
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
