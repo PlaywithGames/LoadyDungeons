@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SharedMaterials
+  m_EditorClassIdentifier: 
+  m_GroupName: SharedMaterials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 80227f7fe277f6d4ca9551197f11b7f8
+  m_SerializeEntries:
+  - m_GUID: 6ea8da319b6ed5347a7a25b4ed60f282
+    m_Address: Assets/Materials/Dino.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1abd29ebb90355468351baf4adcfa45
+    m_Address: Assets/Materials/Hats/Hat00Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 976610aab62dade41b851b853a46a75e
+    m_Address: Assets/Materials/Hats/Hat01Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b19b5a45bca813469543832c4bf3981
+    m_Address: Assets/Materials/Hats/Hat02Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d13457ca5785c64eb81f0e18399cbc9
+    m_Address: Assets/Materials/Hats/Hat_Deer.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eb2bfbd5ce316e4b8df7c2d6b351cde
+    m_Address: Assets/Materials/Hats/Hat_Halloween.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbdb8474eb9764148bf97db77f9b18cc
+    m_Address: Assets/Materials/Hats/Hats_Hat_Crown_AlbedoTransparency.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 043038634c6b3ce4ab992e4010756e2a
+    m_Address: Assets/Materials/Hats/Hats_Hat_AlbedoTransparency.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2567cfd9ab683c4cb87aa7a51062297
+    m_Address: Assets/Materials/Hats/Hats_Hat_Bunny_AlbedoTransparency.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f8fb8337d2fcda44b18c5cc3e9ad18f
+    m_Address: Assets/Materials/Hats/Hats_Hat_Pajama_AlbedoTransparency.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d4495221c44c474398a9fa172987755
+    m_Address: Assets/Materials/Particles/FX_JumpDust.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffab08aac0574784eb1474257bd29732
+    m_Address: Assets/Materials/Particles/FX_Snow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2578c651a80a0314d8fd0834bb5d83ff
+    m_Address: Assets/Materials/Particles/FX_Star.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a86d624505485284cbb786ea1fd3457f
+    m_Address: Assets/Materials/Particles/FX_Chest.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 298d8625582c849418e7bd8cf087512a
+    m_Address: Assets/Materials/Environment
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 661d48ea9271a404cae43a9e2517e23a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9b43dd7ab523cdb42853b9079da0c608, type: 2}
+    - {fileID: 11400000, guid: 0fca383237757154db0108e93296f0e9, type: 2}

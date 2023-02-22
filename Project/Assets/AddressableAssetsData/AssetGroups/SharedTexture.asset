@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SharedTexture
+  m_EditorClassIdentifier: 
+  m_GroupName: SharedTexture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4ba8c1221f28c1e42baf43af40f49442
+  m_SerializeEntries:
+  - m_GUID: 14fefbdfe7f08eb4d99d747a63f03398
+    m_Address: Assets/Textures/Particles
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cfceceb0f171b94e985553234c44488
+    m_Address: Assets/Textures/Hats
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 708b9584216846649835c12b98d3de42
+    m_Address: Assets/Textures/Dino
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 661d48ea9271a404cae43a9e2517e23a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5e0bc6155037ae04d9cab8d089997dd3, type: 2}
+    - {fileID: 11400000, guid: c6f662ed5342ea041a3dcb150e4d1ff1, type: 2}

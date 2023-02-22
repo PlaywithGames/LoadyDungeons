@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SharedModels
+  m_EditorClassIdentifier: 
+  m_GroupName: SharedModels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5d4e422942e825b41afd999f491f9d0d
+  m_SerializeEntries:
+  - m_GUID: 9f5858cf2c3ec59428254c8fff5e9130
+    m_Address: Assets/Models/Dino.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 582155230ef8ac44c83d1d386d33ae9c
+    m_Address: Assets/Models/Gameplay Elements
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bde22b73fe754e458a6144ff53c4554
+    m_Address: Assets/Models/Hats
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 661d48ea9271a404cae43a9e2517e23a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: db52f39404e75fe4b848ad31d9310362, type: 2}
+    - {fileID: 11400000, guid: 670081a4f1d00ee48a617cf8dc9e99c4, type: 2}

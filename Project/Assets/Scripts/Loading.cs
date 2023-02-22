@@ -17,7 +17,7 @@ public class Loading : MonoBehaviour
 
     void OnEnable()
     {
-        m_SceneHandle = Addressables.DownloadDependenciesAsync("Level_0" + GameManager.s_CurrentLevel);
+        m_SceneHandle = Addressables.DownloadDependenciesAsync("Level_01");
         m_SceneHandle.Completed += OnSceneLoaded;
     }
 
@@ -69,8 +69,8 @@ public class Loading : MonoBehaviour
         // Else If the season is supposed to be Winter
         else if (ApplyRemoteConfigSettings.Instance.season == "Winter")
         {
-            Debug.LogError("InsideGoToNextLevel()");
-            Addressables.LoadSceneAsync("Level_0" + "4", UnityEngine.SceneManagement.LoadSceneMode.Single, true);
+            Debug.LogError("Winter");
+            Addressables.LoadSceneAsync("Level_0" + "1", UnityEngine.SceneManagement.LoadSceneMode.Single, true);
         }
 
         // Else If the season is supposed to be Halloween

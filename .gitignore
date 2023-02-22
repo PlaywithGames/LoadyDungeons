@@ -10,6 +10,29 @@ Project/[Bb]uilds/
 Project/[Ll]ogs/
 Project/[Mm]emoryCaptures/
 Project/AssetBundles
+Project/Assets/AddressableAssetsData/*.bin
+
+Art/[Ll]ibrary/
+Art/[Tt]emp/
+Art/[Oo]bj/
+Art/[Bb]uild/
+Art/[Bb]uilds/
+Art/[Ll]ogs/
+Art/[Mm]emoryCaptures/
+Art/AssetBundles
+Art/Assets/AddressableAssetsData/*.bin
+Art/.idea
+
+Client/[Ll]ibrary/
+Client/[Tt]emp/
+Client/[Oo]bj/
+Client/[Bb]uild/
+Client/[Bb]uilds/
+Client/[Ll]ogs/
+Client/[Mm]emoryCaptures/
+Client/AssetBundles
+Client/Assets/AddressableAssetsData/*.bin
+Client/.idea
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
