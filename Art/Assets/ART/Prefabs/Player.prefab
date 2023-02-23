@@ -66,7 +66,7 @@ Transform:
   - {fileID: 1713640702973489256}
   - {fileID: 851981570792355609}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &7316869891310652686
 CapsuleCollider:
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_InputCollisionLayer:
     serializedVersion: 2
     m_Bits: 0
+  inputReader: {fileID: 11400000, guid: 64601687d96ac484eb40afd4614956ff, type: 2}
 --- !u!1001 &1171686176522753923
 PrefabInstance:
   m_ObjectHideFlags: 0

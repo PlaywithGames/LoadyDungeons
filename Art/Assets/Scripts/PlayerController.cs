@@ -45,6 +45,11 @@ public class PlayerController : MonoBehaviour
         inputReader.onMoveVector2 += MoveToPosition;
     }
 
+    private void OnDisable()
+    {
+        inputReader.onMoveVector2 -= MoveToPosition;
+    }
+
     void Start()
     {   
         m_Rigidbody = GetComponent<Rigidbody>();
@@ -101,13 +106,9 @@ public class PlayerController : MonoBehaviour
     void MoveToPosition(Vector2 moveVector)
     {
         Debug.Log(moveVector);
-        // rotation
+        m_Rigidbody.transform.eulerAngles = new Vector3(0, CalulateRotation(moveVector), 0);
         Vector3 direction = new Vector3(moveVector.x, 0, moveVector.y);
-        m_Rigidbody.transform.LookAt(moveVector);
-        // lock rotation to y 
-        Vector3 eulerAngle = m_Rigidbody.transform.eulerAngles;
-        m_Rigidbody.transform.eulerAngles = new Vector3(0, eulerAngle.y, 0);
-        m_Rigidbody.velocity = moveVector * m_MovementSpeed;
+        m_Rigidbody.velocity = direction * m_MovementSpeed;
     }
 
     public void SetMovementSpeed(float speed)
@@ -121,5 +122,46 @@ public class PlayerController : MonoBehaviour
         m_CharacterSize = size;
         gameObject.transform.localScale = new Vector3(m_CharacterSize,m_CharacterSize,m_CharacterSize);
         Debug.Log("Local Scale Set! " + gameObject.transform.localScale);
+    }
+
+    private float CalulateRotation(Vector2 moveVector)
+    {
+        if (moveVector.x == 0f && moveVector.y == 0f)
+        {
+            return 0;
+        }
+        else if (moveVector.x == 0f && moveVector.y == 1.0f)
+        {
+            return 0;
+        }
+        else if (moveVector.x >= 0.7f && moveVector.y >= 0.7f)
+        {
+            return 45;
+        }
+        else if (moveVector.x == 1.0f && moveVector.y == 0)
+        {
+            return 90;
+        }
+        else if (moveVector.x >= 0.7f && moveVector.y <= -0.7f)
+        {
+            return 135;
+        }
+        else if (moveVector.x == 0 && moveVector.y == -1.0f)
+        {
+            return 180;
+        }
+        else if (moveVector.x <= -0.7f && moveVector.y <= -0.7f)
+        {
+            return 225;
+        }
+        else if (moveVector.x == -1.0f && moveVector.y == 0f)
+        {
+            return 270;
+        }
+        else if (moveVector.x <= -0.7f && moveVector.y >= 0.7f)
+        {
+            return 315;
+        }
+        return 0;
     }
 }

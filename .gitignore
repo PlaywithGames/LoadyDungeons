@@ -22,6 +22,7 @@ Art/[Mm]emoryCaptures/
 Art/AssetBundles
 Art/Assets/AddressableAssetsData/*.bin
 Art/.idea
+Art/ServerData
 
 Client/[Ll]ibrary/
 Client/[Tt]emp/
