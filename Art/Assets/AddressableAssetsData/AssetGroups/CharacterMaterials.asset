@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CharacterMaterials
+  m_EditorClassIdentifier: 
+  m_GroupName: CharacterMaterials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 119a34ced83b3d745991a6ae67b15bde
+  m_SerializeEntries:
+  - m_GUID: 6ea8da319b6ed5347a7a25b4ed60f282
+    m_Address: Assets/ART/Materials/Dino.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ef14236c529e0a4eabf188d7b9a64e1
+    m_Address: Assets/ART/Materials/Hats
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aca288fd020cc8f469316722e83fa6ff, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 96b041a68c095074bae26f1746dffc27, type: 2}
+    - {fileID: 11400000, guid: 0a9c4c6c1bed0444192dffa270b4958c, type: 2}
